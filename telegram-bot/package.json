@@ -1,0 +1,22 @@
+{
+  "name": "telegram-auth-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for user authorization",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "start:src": "node src/index.js",
+    "dev:src": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+

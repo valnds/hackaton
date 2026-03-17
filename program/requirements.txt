@@ -1,0 +1,8 @@
+opencv-python
+python-socketio[client]
+Pillow
+face-recognition
+numpy
+sounddevice
+mediapipe
+
