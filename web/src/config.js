@@ -1,5 +1,4 @@
-export const API_URL = 'https://olympik.fun/api';
-export const WS_URL = 'wss://olympik.fun';
+export const API_URL = 'https://valndapp.ru/api';
 
 export const testConnection = async () => {
   try {
@@ -10,4 +9,3 @@ export const testConnection = async () => {
     return false;
   }
 };
-
